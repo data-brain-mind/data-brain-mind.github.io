@@ -106,14 +106,11 @@ ul {
 
 .nav-link:hover {
     color: #eee;
-}
-
-.nav-item:hover {
     background-color: #222146;
     border-radius: 5px;
 }
 
-.active,
+.nav .active,
 .collapsible:hover {
     background-color: #353D5D;
     border-radius: 5px;
