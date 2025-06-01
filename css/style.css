@@ -78,7 +78,7 @@ h5 {
 }
 
 .subtitle img {
-    width: 600px;
+    width: 100%;
 }
 
 ul {
@@ -112,7 +112,7 @@ ul {
 
 .nav .active,
 .collapsible:hover {
-    background-color: #353D5D;
+    background-color: #353d5d;
     border-radius: 5px;
 }
 
@@ -271,6 +271,59 @@ ul {
     padding: 40px 20px;
 }
 
+div.columns {
+    display: flex;
+    flex-direction: row;
+}
+
+div.columns > div {
+    margin-right: auto;
+    flex: 0 1 auto;
+}
+
+div.columns > .fifth {
+    flex-basis: 16%;
+}
+
+div.columns > .quarter {
+    flex-basis: 20%;
+}
+
+div.columns > .third {
+    flex-basis: 30%;
+}
+
+div.columns > .medium {
+    flex-basis: 35%;
+}
+
+div.columns > .half {
+    flex-basis: 45%;
+}
+
+div.columns > .wide {
+    flex-basis: 60%;
+}
+
+div.columns > .full {
+    flex-basis: 90%;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+div.vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.margin {
+    margin: 0 5%;
+    width: 90%;
+}
+
 section > .sectitle {
     text-align: center;
     margin-bottom: 50px;
@@ -407,15 +460,33 @@ ul.dropdown-menu li a {
     border: 1px solid #000000;
 }
 
+.center {
+    margin: 20px auto;
+    align-items: center;
+    text-align: center;
+}
+
 .centered {
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.centered > div {
+    margin: 30px auto;
+    align-items: center;
+    text-align: center;
+    width: 100%;
 }
 
 .organizer a {
     font-weight: 500;
 }
 
-.person:hover a, a:hover {
+.person:hover a,
+a:hover {
     color: #af6125;
     text-decoration: none;
 }
@@ -469,9 +540,12 @@ ul.dropdown-menu li a {
 
 .conference {
     color: #79278a;
-    margin-bottom: -10px;
     margin-top: 10px;
     font-size: 2em;
+}
+
+.conference + div {
+    margin-top: 40px;
 }
 
 .title {
