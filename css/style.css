@@ -669,3 +669,72 @@ b {
         margin-top: 5px; /* Add some space when stacked */
     }
 }
+
+/* Contributed Work Section Styles */
+#call .section-intro {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.contrib-category {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fdfdfd; /* Very light background for subtle separation */
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+}
+
+.contrib-category:last-child {
+    margin-bottom: 0;
+}
+
+.category-title {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    font-weight: 600; /* Bolder than default h3 if needed */
+}
+
+/* Specific colors for titles, similar to original inline styles but can be themed */
+.dataset-title {
+    color: #007bff; /* Bootstrap primary blue, or your theme's primary color */
+}
+
+.method-title {
+    color: #6f42c1; /* Bootstrap purple, or another theme color */
+}
+
+.problem-title {
+    color: #fd7e14; /* Bootstrap orange, or another theme color */
+}
+
+.category-description {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.category-subtitle {
+    display: block; /* Make it a block to have margin-bottom */
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #222;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.category-list {
+    list-style: disc;
+    margin-left: 20px; /* Indent list items */
+    padding-left: 20px;
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+.category-list li {
+    margin-bottom: 8px;
+}
