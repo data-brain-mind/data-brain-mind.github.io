@@ -241,7 +241,6 @@ ul {
     align-items: center;
     justify-content: flex-start;
     margin-bottom: auto;
-    object-fit: cover;
 }
 
 .organizers .person {
