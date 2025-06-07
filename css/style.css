@@ -609,9 +609,63 @@ b {
     font-size: 0.9em;
     line-height: 1.4;
     margin-bottom: 0;
+    color: #666; /* Lighter font color for details */
 }
 
 .schedule-table p em {
     font-style: italic;
     color: #555;
+}
+
+/* Important Dates Section Styles */
+.important-dates-list {
+    max-width: 600px; /* Or your preferred max width */
+    margin: 20px auto;
+    padding: 0;
+    list-style: none;
+}
+
+.date-item {
+    background-color: #f9f9f9; /* Light background for items */
+    border: 1px solid #eee;
+    padding: 15px 20px;
+    margin-bottom: 10px; /* Space between items */
+    display: flex;
+    justify-content: space-between; /* Puts event and date on opposite ends */
+    align-items: center;
+    border-radius: 5px; /* Slightly rounded corners */
+}
+
+.date-item:nth-child(odd) {
+    background-color: #fff; /* Alternate background for visual separation */
+}
+
+.date-event {
+    font-size: 1em;
+    color: #333;
+    font-weight: normal;
+}
+
+.date-value {
+    font-size: 1em;
+    color: #000;
+    font-weight: bold;
+}
+
+.date-value small {
+    font-size: 0.85em;
+    font-weight: normal;
+    color: #555;
+}
+
+/* Responsive adjustments if needed */
+@media screen and (max-width: 600px) {
+    .date-item {
+        flex-direction: column; /* Stack event and date on smaller screens */
+        align-items: flex-start;
+    }
+
+    .date-value {
+        margin-top: 5px; /* Add some space when stacked */
+    }
 }
