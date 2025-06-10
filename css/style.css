@@ -189,29 +189,6 @@ ul {
     margin-top: -100px;
 }
 
-.calculator {
-    border-collapse: collapse;
-    margin: 20px auto;
-    /* text-align: center; -- Removing this as schedule-table handles its own alignment */
-}
-
-.calculator td + td {
-    padding-left: 20px;
-}
-
-.calculator td b {
-    font-weight: bold;
-}
-
-.calculator > tbody > tr > td,
-.calculator > tbody > tr > th,
-.calculator > tfoot > tr > td,
-.calculator > tfoot > tr > th,
-.calculator > thead > tr > td,
-.calculator > thead > tr > th {
-    border: none;
-}
-
 .speakers,
 .organizers {
     text-align: center;
@@ -440,11 +417,11 @@ ul.dropdown-menu li a {
     .navbar {
         font-size: 1em;
     }
-    .calculator tr {
+    .schedule-table tr {
         display: table;
         width: 100%;
     }
-    .calculator td {
+    .schedule-table td {
         width: 100%;
         display: table-row;
         text-align: center;
@@ -617,6 +594,67 @@ b {
     color: #555;
 }
 
+.schedule-table td + td {
+    padding-left: 20px;
+}
+
+.schedule-table td b {
+    font-weight: bold;
+}
+
+.schedule-table > thead > tr {
+    text-align: left;
+}
+
+.schedule-table th.w-10 {
+    width: 10%; 
+}
+
+.schedule-table th.w-20 {
+    width: 20%; 
+}
+
+.schedule-table th.w-30 {
+    width: 30%; 
+}
+
+.schedule-table th.w-40 {
+    width: 40%; 
+}
+
+.schedule-table th.w-50 {
+    width: 50%; 
+}
+
+.schedule-table th.w-60 {
+    width: 60%; 
+}
+
+.schedule-table th.w-70 {
+    width: 70%; 
+}
+
+.schedule-table th.w-80 {
+    width: 80%; 
+}
+
+.schedule-table th.w-90 {
+    width: 90%; 
+}
+
+.schedule-table th.w-100 {
+    width: 100%; 
+}
+
+.schedule-table > tbody > tr > td,
+.schedule-table > tbody > tr > th,
+.schedule-table > tfoot > tr > td,
+.schedule-table > tfoot > tr > th,
+.schedule-table > thead > tr > td,
+.schedule-table > thead > tr > th {
+    border: none;
+}
+
 /* Important Dates Section Styles */
 .important-dates-list {
     max-width: 600px; /* Or your preferred max width */
@@ -737,4 +775,23 @@ b {
 
 .category-list li {
     margin-bottom: 8px;
+}
+
+blockquote {
+    background-color: #f8f9fa; /* A light grey, common for blockquotes */
+    border-left: 5px solid #007bff; /* A distinct blue, adjust as needed */
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    font-style: italic;
+}
+
+blockquote p {
+    margin-bottom: 0; /* Remove default paragraph margin inside blockquote if needed */
+}
+
+.datasets-image {
+    width: 110%;
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
 }

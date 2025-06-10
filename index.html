@@ -14,18 +14,6 @@
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <title>Data on the Brain &amp; Mind</title>
         <link rel="stylesheet" href="css/style.css" />
-        <style>
-          blockquote {
-            background-color: #f8f9fa; /* A light grey, common for blockquotes */
-            border-left: 5px solid #007bff; /* A distinct blue, adjust as needed */
-            margin: 1.5em 10px;
-            padding: 0.5em 10px;
-            font-style: italic;
-          }
-          blockquote p {
-            margin-bottom: 0; /* Remove default paragraph margin inside blockquote if needed */
-          }
-        </style>
     </head>
 
     <body data-spy="scroll" data-target="#main-navigation" data-offset="50">
@@ -98,29 +86,64 @@
                 <h2>Overview</h2>
             </div>
             <div class="margin">
-                <b>Our workshop aims to connect machine learning researchers with neuroscientists and cognitive scientists by focusing on concrete, open problems grounded in emerging neural datasets.</b> 
+                <b
+                    >Our workshop aims to connect machine learning researchers with neuroscientists and cognitive
+                    scientists by focusing on concrete, open problems grounded in emerging neural datasets.</b
+                >
 
-                Large-scale, open datasets are transforming the practice of research in a variety of neuroscience and cognitive science subdomains, including whole-brain circuitry (<a href="https://flywire.ai/">FlyWire</a>; <a href="https://internationalbrainlab.com/">IBL</a>; <a href="https://wormid.org/">WormID</a>), visual–motor cortical processing (<a href="https://www.microns-explorer.org/">MICrONS</a>), human development (<a href="https://arxiv.org/html/2406.10447v1">BabyView</a>), and natural speech processing (<a href="https://osf.io/ag3kj/">MEG-MASC</a>). 
-                
+                Large-scale, open datasets are transforming the practice of research in a variety of neuroscience and
+                cognitive science subdomains, including whole-brain circuitry (<a href="https://flywire.ai/">FlyWire</a
+                >; <a href="https://internationalbrainlab.com/">IBL</a>; <a href="https://wormid.org/">WormID</a>),
+                visual–motor cortical processing (<a href="https://www.microns-explorer.org/">MICrONS</a>), human
+                development (<a href="https://arxiv.org/html/2406.10447v1">BabyView</a>), and natural speech processing
+                (<a href="https://osf.io/ag3kj/">MEG-MASC</a>).
+
                 <blockquote>
-                  <p>A key differentiator of our workshop is its focus on the rich diversity and heterogeneity of emerging neuroscience and cognitive science datasets. These are not your standard ML benchmarks; they span a wide array of data types including time series, images, videos, text, and even unconventional structures like connectome graphs from MICrONS. Each dataset possesses highly idiosyncratic meta-information, such as the spatial coordinates of electrodes in MEG recordings, that invites the development of tailored, sophisticated AI solutions. This departure from generic datasets encourages a move beyond one-size-fits-all foundation models, precisely the kinds of directions we aim to explore.</p>
+                    <p>
+                        A key differentiator of our workshop is its focus on the rich diversity and heterogeneity of
+                        emerging neuroscience and cognitive science datasets. These are not your standard ML benchmarks;
+                        they span a wide array of data types including time series, images, videos, text, and even
+                        unconventional structures like connectome graphs from MICrONS. Each dataset possesses highly
+                        idiosyncratic meta-information, such as the spatial coordinates of electrodes in MEG recordings,
+                        that invites the development of tailored, sophisticated AI solutions. This departure from
+                        generic datasets encourages a move beyond one-size-fits-all foundation models, precisely the
+                        kinds of directions we aim to explore.
+                    </p>
                 </blockquote>
 
-                We believe a workshop focused on ML applied to such datasets is timely and presents a clear opportunity to help forge collaborations. Thus, <b> we designed the workshop to be highly interactive</b>. In addition, we invited speakers who have <b>led large, open-sourced data initiatives or analyzed key datasets</b> like those mentioned above.
+                We believe a workshop focused on ML applied to such datasets is timely and presents a clear opportunity
+                to help forge collaborations. Thus, <b> we designed the workshop to be highly interactive</b>. In
+                addition, we invited speakers who have
+                <b>led large, open-sourced data initiatives or analyzed key datasets</b> like those mentioned above.
 
-                <br>
-                <br>
+                <br />
+                <br />
                 There are three aims that shape the content and format of the workshop:
                 <ul>
-                    <li> <b>Aim 1: Identify open problems grounded in large, open-sourced datasets.</b> What neuroscience and cognitive science questions can these large datasets address?</li>
-                    <li> <b>Aim 2: ML methods for neuroscience and cognitive science data.</b> How can ML/AI methods help us collect datasets, analyze datasets, and, ultimately, answer scientific questions in a data-driven fashion?</li>
-                    <li> <b>Aim 3: Collaborative structures of ML applied to neuroscience and cognitive science.</b> How can interdisciplinary collaborations between ML, neuroscience, and cognitive science researchers be structured to accelerate hypothesis generation and testing, particularly through shared tools for data-model integration and interpretability? </li>
+                    <li>
+                        <b>Aim 1: Identify open problems grounded in large, open-sourced datasets.</b> What neuroscience
+                        and cognitive science questions can these large datasets address?
+                    </li>
+                    <li>
+                        <b>Aim 2: ML methods for neuroscience and cognitive science data.</b> How can ML/AI methods help
+                        us collect datasets, analyze datasets, and, ultimately, answer scientific questions in a
+                        data-driven fashion?
+                    </li>
+                    <li>
+                        <b>Aim 3: Collaborative structures of ML applied to neuroscience and cognitive science.</b> How
+                        can interdisciplinary collaborations between ML, neuroscience, and cognitive science researchers
+                        be structured to accelerate hypothesis generation and testing, particularly through shared tools
+                        for data-model integration and interpretability?
+                    </li>
                 </ul>
             </div>
-            <br>
-            <br>
+            <br />
+            <br />
             <div class="margin">
-                <img src="imgs/datasets.png" alt="Datasets" style="width: 110%; max-width: 1200px; display: block; margin: 0 auto;" />
+                <img
+                    src="imgs/datasets.png"
+                    alt="Datasets"
+                    class="datasets-image" />
             </div>
         </section>
 
@@ -177,12 +200,12 @@
 
         <section id="schedule">
             <div class="sectitle"><h2>Event Schedule</h2></div>
-            <table class="calculator schedule-table">
+            <table class="schedule-table">
                 <thead>
-                    <tr style="text-align: left;">
-                        <th style="width: 20%;">Time</th>
-                        <th style="width: 40%;">Event</th>
-                        <th style="width: 40%;">Details/Speakers</th>
+                    <tr>
+                        <th class="w-20">Time</th>
+                        <th class="w-40">Event</th>
+                        <th class="w-40">Details/Speakers</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -199,57 +222,110 @@
                     <tr>
                         <td>9:50 - 10:20am</td>
                         <td><h4>Invited Talk 1</h4></td>
-                        <td><p><strong>Dan Yamins</strong> (Stanford) <br> <em>Deep learning & visual cortex models</em></p></td>
+                        <td>
+                            <p>
+                                <strong>Dan Yamins</strong> (Stanford) <br />
+                                <em>Deep learning & visual cortex models</em>
+                            </p>
+                        </td>
                     </tr>
                     <tr>
                         <td>10:20 - 10:50am</td>
                         <td><h4>Invited Talk 2</h4></td>
-                        <td><p><strong>Ila Fiete</strong> (MIT) <br> <em>Neural computation, spatial navigation & memory</em></p></td>
+                        <td>
+                            <p>
+                                <strong>Ila Fiete</strong> (MIT) <br />
+                                <em>Neural computation, spatial navigation & memory</em>
+                            </p>
+                        </td>
                     </tr>
                     <tr>
                         <td>11:00 - 11:50am</td>
                         <td><h4>Discussion Sessions</h4></td>
-                        <td><p>Dataset-focused discussions on: Language in the brain, Visual & spatial intelligence, Brain-wide circuits, Human-like learning, and Human cognitive behaviors.</p></td>
+                        <td>
+                            <p>
+                                Dataset-focused discussions on: Language in the brain, Visual & spatial intelligence,
+                                Brain-wide circuits, Human-like learning, and Human cognitive behaviors.
+                            </p>
+                        </td>
                     </tr>
                     <tr>
                         <td>11:50 - 1:00pm</td>
                         <td><h4>Mentoring Lunch</h4></td>
-                        <td><p>Connect with senior colleagues in small themed groups (PhD applications, work/life balance, research transitions).</p></td>
+                        <td>
+                            <p>
+                                Connect with senior colleagues in small themed groups (PhD applications, work/life
+                                balance, research transitions).
+                            </p>
+                        </td>
                     </tr>
                     <tr>
                         <td>1:00 - 1:30pm</td>
                         <td><h4>Invited Talk 3</h4></td>
-                        <td><p><strong>Laura Gwilliams</strong> (Stanford) <br> <em>Cognitive neuroscience of language processing</em></p></td>
+                        <td>
+                            <p>
+                                <strong>Laura Gwilliams</strong> (Stanford) <br />
+                                <em>Cognitive neuroscience of language processing</em>
+                            </p>
+                        </td>
                     </tr>
                     <tr>
                         <td>1:30 - 2:00pm</td>
                         <td><h4>Invited Talk 4</h4></td>
-                        <td><p><strong>Cengiz Pehlevan</strong> (Harvard) <br> <em>Models of neural computation & learning rules</em></p></td>
+                        <td>
+                            <p>
+                                <strong>Cengiz Pehlevan</strong> (Harvard) <br />
+                                <em>Models of neural computation & learning rules</em>
+                            </p>
+                        </td>
                     </tr>
                     <tr>
                         <td>2:00 - 2:40pm</td>
-                        <td><h4>Poster Session I</h4><p><em>Contributed Works</em></p></td>
+                        <td>
+                            <h4>Poster Session I</h4>
+                            <p><em>Contributed Works</em></p>
+                        </td>
                         <td><p></p></td>
                     </tr>
                     <tr>
                         <td>2:50 - 3:20pm</td>
                         <td><h4>Invited Talk 5</h4></td>
-                        <td><p><strong>Rajesh Rao</strong> (University of Washington) <br> <em>Computational models of perception & decision-making</em></p></td>
+                        <td>
+                            <p>
+                                <strong>Rajesh Rao</strong> (University of Washington) <br />
+                                <em>Computational models of perception & decision-making</em>
+                            </p>
+                        </td>
                     </tr>
                     <tr>
                         <td>3:20 - 3:50pm</td>
                         <td><h4>Invited Talk 6</h4></td>
-                        <td><p><strong>Martin Schrimpf</strong> (EPFL) <br> <em>Deep learning in neuroscience & clinical applications</em></p></td>
+                        <td>
+                            <p>
+                                <strong>Martin Schrimpf</strong> (EPFL) <br />
+                                <em>Deep learning in neuroscience & clinical applications</em>
+                            </p>
+                        </td>
                     </tr>
                     <tr>
                         <td>3:50 - 4:20pm</td>
                         <td><h4>Un-Poster Session (Poster Session II)</h4></td>
-                        <td><p>Interactive session: visit other posters, discuss negative results, desired datasets/methods.</p></td>
+                        <td>
+                            <p>
+                                Interactive session: visit other posters, discuss negative results, desired
+                                datasets/methods.
+                            </p>
+                        </td>
                     </tr>
                     <tr>
                         <td>4:30 - 5:00pm</td>
                         <td><h4>Invited Talk 7</h4></td>
-                        <td><p><strong>Gemma Roig</strong> (Goethe University Frankfurt) <br> <em>Computational visual intelligence in humans & machines</em></p></td>
+                        <td>
+                            <p>
+                                <strong>Gemma Roig</strong> (Goethe University Frankfurt) <br />
+                                <em>Computational visual intelligence in humans & machines</em>
+                            </p>
+                        </td>
                     </tr>
                     <tr>
                         <td>5:10 - 5:45pm</td>
@@ -263,21 +339,31 @@
         <section id="call">
             <div class="sectitle"><h2>Contributed Work</h2></div>
             <p class="section-intro">We invite <b>4-page submissions</b> in the following three categories.</p>
-            
+
             <div class="contrib-category">
                 <h3 class="category-title dataset-title">Dataset Papers</h3>
-                <p class="category-description">Submissions should present neuroscience or cognitive science datasets that clearly articulate open scientific questions the dataset could address. Examples include: neural recording datasets with specific hypotheses about computation, behavioral datasets with questions about learning mechanisms, and clinical datasets with therapeutic targets.</p>
+                <p class="category-description">
+                    Submissions should present neuroscience or cognitive science datasets that clearly articulate open
+                    scientific questions the dataset could address. Examples include: neural recording datasets with
+                    specific hypotheses about computation, behavioral datasets with questions about learning mechanisms,
+                    and clinical datasets with therapeutic targets.
+                </p>
                 <strong class="category-subtitle">Requirements:</strong>
                 <ul class="category-list">
                     <li>Highlight connections to relevant computational or machine learning approaches</li>
-                    <li>Provide well-formatted and accessible data (such as pandas DataFrames or standardized formats)</li>
+                    <li>
+                        Provide well-formatted and accessible data (such as pandas DataFrames or standardized formats)
+                    </li>
                     <li>May include previously published datasets if they identify new questions</li>
                 </ul>
             </div>
 
             <div class="contrib-category">
                 <h3 class="category-title method-title">Method Papers</h3>
-                <p class="category-description">Submissions should present machine learning methods with clear applications to neuroscience or cognitive science.</p>
+                <p class="category-description">
+                    Submissions should present machine learning methods with clear applications to neuroscience or
+                    cognitive science.
+                </p>
                 <strong class="category-subtitle">This includes:</strong>
                 <ul class="category-list">
                     <li>Novel algorithms with potential for experimental testing</li>
@@ -289,12 +375,18 @@
 
             <div class="contrib-category">
                 <h3 class="category-title problem-title">Problem Statements</h3>
-                <p class="category-description">We welcome position papers and proposals of untested ideas that identify concrete open problems requiring interdisciplinary collaboration.</p>
+                <p class="category-description">
+                    We welcome position papers and proposals of untested ideas that identify concrete open problems
+                    requiring interdisciplinary collaboration.
+                </p>
                 <strong class="category-subtitle">This includes:</strong>
                 <ul class="category-list">
                     <li>Experimental frameworks informed by computational theory</li>
                     <li>New evaluation paradigms or benchmarks</li>
-                    <li>Proposals to bridge gaps between the neuroscience, cognitive science, and machine learning communities</li>
+                    <li>
+                        Proposals to bridge gaps between the neuroscience, cognitive science, and machine learning
+                        communities
+                    </li>
                 </ul>
             </div>
         </section>
