@@ -554,7 +554,7 @@ b {
 }
 
 .schedule-table thead tr {
-    background-color: #f0f0f0; /* Light grey background for header */
+    background-color: #e9e9e9;
     color: #333;
     text-align: left;
 }
@@ -719,8 +719,8 @@ b {
 .contrib-category {
     margin-bottom: 40px;
     padding: 20px;
-    background-color: #fdfdfd; /* Very light background for subtle separation */
-    border: 1px solid #eaeaea;
+    background-color: #f8f9fa;
+    /* border: 1px solid #eaeaea; */
     border-radius: 5px;
 }
 
