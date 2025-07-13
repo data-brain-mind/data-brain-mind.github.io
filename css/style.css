@@ -220,10 +220,6 @@ ul {
     margin-bottom: auto;
 }
 
-.organizers .person {
-    flex: 0 0 25%;
-}
-
 .grid {
     padding: 30px;
     margin-bottom: -100px;
