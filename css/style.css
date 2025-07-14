@@ -712,12 +712,19 @@ b {
     color: #555;
 }
 
+.call {
+    display: grid;
+    grid: auto / repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    text-align: left;
+}
+
 .contrib-category {
-    margin-bottom: 40px;
     padding: 20px;
+    margin: 20px;
     background-color: #f8f9fa;
-    /* border: 1px solid #eaeaea; */
     border-radius: 5px;
+    height: 100%;
 }
 
 .contrib-category:last-child {
