@@ -767,6 +767,16 @@ b {
     margin-bottom: 10px;
 }
 
+.category-note {
+    display: block; /* Make it a block to have margin-bottom */
+    font-style: italic;
+    font-size: 1em;
+    font-weight: 400;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 .category-list {
     list-style: disc;
     margin-left: 20px; /* Indent list items */
