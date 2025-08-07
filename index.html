@@ -44,6 +44,9 @@
                     <a class="nav-link" href="#dates">Dates</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#faq">FAQ</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#organizers">Organizers</a>
                 </li>
             </ul>
@@ -469,6 +472,112 @@
             <!-- </div> -->
         </div>
     </section>
+    <section id="faq" class="faq">
+        <div class="sectitle">
+            <h2>FAQ</h2>
+        </div>
+
+        <div id="faqAccordion" class="accordion margin">
+
+            <!-- Q1 -->
+            <div class="card">
+                <div class="card-header" id="faqHeading1">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed d-flex w-100 justify-content-between align-items-center"
+                            data-toggle="collapse" data-target="#faqCollapse1" aria-expanded="false"
+                            aria-controls="faqCollapse1">
+                            <span>Is the review process double blind?</span>
+                            <i class="fas fa-plus faq-icon" aria-hidden="true"></i>
+                        </button>
+                    </h5>
+                </div>
+                <div id="faqCollapse1" class="collapse" aria-labelledby="faqHeading1" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        Yes, please anonymize your submission.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Q2 -->
+            <div class="card">
+                <div class="card-header" id="faqHeading2">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed d-flex w-100 justify-content-between align-items-center"
+                            data-toggle="collapse" data-target="#faqCollapse2" aria-expanded="false"
+                            aria-controls="faqCollapse2">
+                            <span>Are concurrent submissions to both the Tutorials and Findings tracks allowed?</span>
+                            <i class="fas fa-plus faq-icon" aria-hidden="true"></i>
+                        </button>
+                    </h5>
+                </div>
+                <div id="faqCollapse2" class="collapse" aria-labelledby="faqHeading2" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        We welcome concurrent submissions to both tracks, but each submission should stand on its own in
+                        content and
+                        contribution (and meet the standards of the track). Please see the calls for contributions for
+                        more
+                        details.
+                        We provide an option on OpenReview to indicate concurrent submission. In the case that the
+                        concurrent
+                        submissions of the same work are accepted to both tracks, the author(s) may consider presenting
+                        a
+                        single
+                        poster. We will help indicate that the poster presents both findings and a tutorial at the
+                        workshop.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Q3 -->
+            <div class="card">
+                <div class="card-header" id="faqHeading3">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed d-flex w-100 justify-content-between align-items-center"
+                            data-toggle="collapse" data-target="#faqCollapse3" aria-expanded="false"
+                            aria-controls="faqCollapse3">
+                            <span>Are submissions for both tracks considered publications? Can I still publish the work
+                                accepted at the DBM workshop?</span>
+                            <i class="fas fa-plus faq-icon" aria-hidden="true"></i>
+                        </button>
+                    </h5>
+                </div>
+                <div id="faqCollapse3" class="collapse" aria-labelledby="faqHeading3" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        The accepted papers for both tracks are considered non-archival and do not conflict with any
+                        future
+                        publications.
+                        The accepted papers will show up on OpenReview and can be cited from there. Work under review
+                        elsewhere is welcome.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Q4 -->
+            <div class="card">
+                <div class="card-header" id="faqHeading4">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed d-flex w-100 justify-content-between align-items-center"
+                            data-toggle="collapse" data-target="#faqCollapse4" aria-expanded="false"
+                            aria-controls="faqCollapse4">
+                            <span>Do I get to present my accepted work under the Findings or Tutorials track?</span>
+                            <i class="fas fa-plus faq-icon" aria-hidden="true"></i>
+                        </button>
+                    </h5>
+                </div>
+                <div id="faqCollapse4" class="collapse" aria-labelledby="faqHeading4" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        For both tracks, all accepted submissions will be presented in the form of posters. Among the
+                        accepted
+                        submissions for both tracks, we will select and highlight the top submissions as oral talks in
+                        the
+                        workshop.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <section id="organizers" class="organizers">
         <div class="sectitle">
             <h2>Organizers</h2>
@@ -548,5 +657,17 @@
         </div>
     </section>
 </body>
+<script>
+    // Toggle + / - icons on show/hide
+    $('#faqAccordion')
+        .on('show.bs.collapse', function (e) {
+            $(e.target).prev('.card-header').find('.faq-icon')
+                .removeClass('fa-plus').addClass('fa-minus');
+        })
+        .on('hide.bs.collapse', function (e) {
+            $(e.target).prev('.card-header').find('.faq-icon')
+                .removeClass('fa-minus').addClass('fa-plus');
+        });
+</script>
 
 </html>
