@@ -1,180 +1,188 @@
 <!doctype html>
 <html lang="en">
-<link rel="icon" href="imgs/icon.jpg" type="image/jpeg" />
+    <link rel="icon" href="imgs/icon.jpg" type="image/jpeg" />
 
-<head>
-    <script src="scripts/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <script src="scripts/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <head>
+        <script src="scripts/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <script src="scripts/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 
-    <script src="scripts/scroll.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <title>Data on the Brain &amp; Mind</title>
-    <link rel="stylesheet" href="css/style.css" />
-</head>
+        <script src="scripts/scroll.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <title>Data on the Brain &amp; Mind</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
 
-<body data-spy="scroll" data-target="#main-navigation" data-offset="50">
-    <nav id="navbar" class="navbar navbar-expand-xl navbar-expand-lg navbar-expand-custom navbar-fixed-top sticky-nav">
-        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#main-navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="nav collapse navbar-collapse" id="main-navigation">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="fas fa-home"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#overview">Overview</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#speaker">Speakers</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#schedule">Schedule</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#call">Contributed Work</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#dates">Dates</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#faq">FAQ</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#organizers">Organizers</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="title-container">
-        <div>
-            <div class="subtitle margin">
-                <div class="centered margin columns">
-                    <div class="fifth"></div>
-                    <div class="grow third">
-                        <a href="https://neurips.cc">
-                            <img src="imgs/NeurIPS-logo.svg" />
+    <body data-spy="scroll" data-target="#main-navigation" data-offset="50">
+        <nav
+            id="navbar"
+            class="navbar navbar-expand-xl navbar-expand-lg navbar-expand-custom navbar-fixed-top sticky-nav">
+            <button
+                class="navbar-toggler navbar-light"
+                type="button"
+                data-toggle="collapse"
+                data-target="#main-navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="nav collapse navbar-collapse" id="main-navigation">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-home"></i>
                         </a>
-                    </div>
-                    <div class="grow fifth"><img src="imgs/brain-icon.svg" /></div>
-                    <div class="fifth"></div>
-                </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#overview">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#speaker">Speakers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#schedule">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#call">Contributed Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dates">Dates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#organizers">Organizers</a>
+                    </li>
+                </ul>
             </div>
-            <h1 class="title">Data on the Brain &amp; Mind</h1>
-            <div class="subtitle">Concrete Applications of AI to Neuroscience and Cognitive Science</div>
-            <div class="conference">NeurIPS 2025, San Diego CA</div>
+        </nav>
+
+        <div class="title-container">
             <div>
-                <h4>
-                    Email: <a href="mailto:data-brain-mind@googlegroups.com">data-brain-mind@googlegroups.com</a>
-                </h4>
-            </div>
-        </div>
-    </div>
-
-    <section id="overview">
-        <div class="sectitle">
-            <h2>Overview</h2>
-        </div>
-        <div class="margin">
-            <b>Our workshop aims to connect machine learning researchers with neuroscientists and cognitive
-                scientists by focusing on concrete, open problems grounded in emerging neural datasets.</b>
-
-            Large-scale, open datasets are transforming the practice of research in a variety of neuroscience and
-            cognitive science subdomains, including whole-brain circuitry (<a href="https://flywire.ai/">FlyWire</a>; <a
-                href="https://internationalbrainlab.com/">IBL</a>; <a href="https://wormid.org/">WormID</a>),
-            visual–motor cortical processing (<a href="https://www.microns-explorer.org/">MICrONS</a>), human
-            development (<a href="https://arxiv.org/html/2406.10447v1">BabyView</a>), and natural speech processing
-            (<a href="https://osf.io/ag3kj/">MEG-MASC</a>).
-
-            <blockquote>
-                <p>
-                    A key differentiator of our workshop is its focus on the rich diversity and heterogeneity of
-                    emerging neuroscience and cognitive science datasets. These are not your standard ML benchmarks;
-                    they span a wide array of data types including time series, images, videos, text, and even
-                    unconventional structures like connectome graphs from MICrONS. Each dataset possesses highly
-                    idiosyncratic meta-information, such as the spatial coordinates of electrodes in MEG recordings,
-                    that invites the development of tailored, sophisticated AI solutions. This departure from
-                    generic datasets encourages a move beyond one-size-fits-all foundation models, precisely the
-                    kinds of directions we aim to explore.
-                </p>
-            </blockquote>
-
-            We believe a workshop focused on ML applied to such datasets is timely and presents a clear opportunity
-            to help forge collaborations. Thus, <b> we designed the workshop to be highly interactive</b>. In
-            addition, we invited speakers who have
-            <b>led large, open-sourced data initiatives or analyzed key datasets</b> like those mentioned above.
-
-            <br />
-            <br />
-            There are three aims that shape the content and format of the workshop:
-            <ul>
-                <li>
-                    <b>Aim 1: Identify open problems grounded in large, open-sourced datasets.</b> What neuroscience
-                    and cognitive science questions can these large datasets address?
-                </li>
-                <li>
-                    <b>Aim 2: ML methods for neuroscience and cognitive science data.</b> How can ML/AI methods help
-                    us collect datasets, analyze datasets, and, ultimately, answer scientific questions in a
-                    data-driven fashion?
-                </li>
-                <li>
-                    <b>Aim 3: Collaborative structures of ML applied to neuroscience and cognitive science.</b> How
-                    can interdisciplinary collaborations between ML, neuroscience, and cognitive science researchers
-                    be structured to accelerate hypothesis generation and testing, particularly through shared tools
-                    for data-model integration and interpretability?
-                </li>
-            </ul>
-        </div>
-        <br />
-        <br />
-        <div class="margin">
-            <img src="imgs/datasets.png" alt="Datasets" class="datasets-image" />
-        </div>
-    </section>
-
-    <section class="speakers" id="speaker">
-        <div class="sectitle">
-            <h2>Invited Speakers</h2>
-        </div>
-        <div class="grid">
-            <div class="row">
-                <div class="person">
-                    <a href="#"><img src="imgs/yamins.jpg" alt="Dan Yamins" /></a>
-                    <h5><a href="#">Dan Yamins</a></h5>
-                    Stanford University
+                <div class="subtitle margin">
+                    <div class="centered margin columns">
+                        <div class="fifth"></div>
+                        <div class="grow third">
+                            <a href="https://neurips.cc">
+                                <img src="imgs/NeurIPS-logo.svg" />
+                            </a>
+                        </div>
+                        <div class="grow fifth"><img src="imgs/brain-icon.svg" /></div>
+                        <div class="fifth"></div>
+                    </div>
                 </div>
-                <div class="person">
-                    <a href="#"><img src="imgs/fiete.jpg" alt="Ila Fiete" /></a>
-                    <h5><a href="#">Ila Fiete</a></h5>
-                    MIT
-                </div>
-                <div class="person">
-                    <a href="#"><img src="imgs/gwilliams.jpg" alt="Laura Gwilliams" /></a>
-                    <h5><a href="#">Laura Gwilliams</a></h5>
-                    Stanford University
-                </div>
-                <div class="person">
-                    <a href="#"><img src="imgs/cengiz.jpg" alt="Cengiz Pehlevan" /></a>
-                    <h5><a href="#">Cengiz Pehlevan</a></h5>
-                    Harvard University
-                </div>
-                <div class="person">
-                    <a href="#"><img src="imgs/rao.jpg" alt="Rajesh Rao" /></a>
-                    <h5><a href="#">Rajesh Rao</a></h5>
-                    University of Washington
+                <h1 class="title">Data on the Brain &amp; Mind</h1>
+                <div class="subtitle">Concrete Applications of AI to Neuroscience and Cognitive Science</div>
+                <div class="conference">NeurIPS 2025, San Diego CA</div>
+                <div>
+                    <h4>
+                        Email: <a href="mailto:data-brain-mind@googlegroups.com">data-brain-mind@googlegroups.com</a>
+                    </h4>
                 </div>
             </div>
+        </div>
 
-            <!-- <div class="row"> -->
+        <section id="overview">
+            <div class="sectitle">
+                <h2>Overview</h2>
+            </div>
+            <div class="margin">
+                <b
+                    >Our workshop aims to connect machine learning researchers with neuroscientists and cognitive
+                    scientists by focusing on concrete, open problems grounded in emerging neural datasets.</b
+                >
 
-            <!-- <div class="person">
+                Large-scale, open datasets are transforming the practice of research in a variety of neuroscience and
+                cognitive science subdomains, including whole-brain circuitry (<a href="https://flywire.ai/">FlyWire</a
+                >; <a href="https://internationalbrainlab.com/">IBL</a>; <a href="https://wormid.org/">WormID</a>),
+                visual–motor cortical processing (<a href="https://www.microns-explorer.org/">MICrONS</a>), human
+                development (<a href="https://arxiv.org/html/2406.10447v1">BabyView</a>), and natural speech processing
+                (<a href="https://osf.io/ag3kj/">MEG-MASC</a>).
+
+                <blockquote>
+                    <p>
+                        A key differentiator of our workshop is its focus on the rich diversity and heterogeneity of
+                        emerging neuroscience and cognitive science datasets. These are not your standard ML benchmarks;
+                        they span a wide array of data types including time series, images, videos, text, and even
+                        unconventional structures like connectome graphs from MICrONS. Each dataset possesses highly
+                        idiosyncratic meta-information, such as the spatial coordinates of electrodes in MEG recordings,
+                        that invites the development of tailored, sophisticated AI solutions. This departure from
+                        generic datasets encourages a move beyond one-size-fits-all foundation models, precisely the
+                        kinds of directions we aim to explore.
+                    </p>
+                </blockquote>
+
+                We believe a workshop focused on ML applied to such datasets is timely and presents a clear opportunity
+                to help forge collaborations. Thus, <b> we designed the workshop to be highly interactive</b>. In
+                addition, we invited speakers who have
+                <b>led large, open-sourced data initiatives or analyzed key datasets</b> like those mentioned above.
+
+                <br />
+                <br />
+                There are three aims that shape the content and format of the workshop:
+                <ul>
+                    <li>
+                        <b>Aim 1: Identify open problems grounded in large, open-sourced datasets.</b> What neuroscience
+                        and cognitive science questions can these large datasets address?
+                    </li>
+                    <li>
+                        <b>Aim 2: ML methods for neuroscience and cognitive science data.</b> How can ML/AI methods help
+                        us collect datasets, analyze datasets, and, ultimately, answer scientific questions in a
+                        data-driven fashion?
+                    </li>
+                    <li>
+                        <b>Aim 3: Collaborative structures of ML applied to neuroscience and cognitive science.</b> How
+                        can interdisciplinary collaborations between ML, neuroscience, and cognitive science researchers
+                        be structured to accelerate hypothesis generation and testing, particularly through shared tools
+                        for data-model integration and interpretability?
+                    </li>
+                </ul>
+            </div>
+            <br />
+            <br />
+            <div class="margin">
+                <img src="imgs/datasets.png" alt="Datasets" class="datasets-image" />
+            </div>
+        </section>
+
+        <section class="speakers" id="speaker">
+            <div class="sectitle">
+                <h2>Invited Speakers</h2>
+            </div>
+            <div class="grid">
+                <div class="row">
+                    <div class="person">
+                        <a href="#"><img src="imgs/yamins.jpg" alt="Dan Yamins" /></a>
+                        <h5><a href="#">Dan Yamins</a></h5>
+                        Stanford University
+                    </div>
+                    <div class="person">
+                        <a href="#"><img src="imgs/fiete.jpg" alt="Ila Fiete" /></a>
+                        <h5><a href="#">Ila Fiete</a></h5>
+                        MIT
+                    </div>
+                    <div class="person">
+                        <a href="#"><img src="imgs/gwilliams.jpg" alt="Laura Gwilliams" /></a>
+                        <h5><a href="#">Laura Gwilliams</a></h5>
+                        Stanford University
+                    </div>
+                    <div class="person">
+                        <a href="#"><img src="imgs/cengiz.jpg" alt="Cengiz Pehlevan" /></a>
+                        <h5><a href="#">Cengiz Pehlevan</a></h5>
+                        Harvard University
+                    </div>
+                    <div class="person">
+                        <a href="#"><img src="imgs/rao.jpg" alt="Rajesh Rao" /></a>
+                        <h5><a href="#">Rajesh Rao</a></h5>
+                        University of Washington
+                    </div>
+                </div>
+
+                <!-- <div class="row"> -->
+
+                <!-- <div class="person">
                     <a href="#"><img src="imgs/martin.jpg" alt="Martin Schrimpf" /></a>
                     <h5><a href="#">Martin Schrimpf</a></h5>
                     EPFL
@@ -184,14 +192,14 @@
                     <h5><a href="#">Gemma Roig</a></h5>
                     Goethe University Frankfurt
                 </div> -->
-            <!-- <div class="person"> -->
-            <!--     <a href="#"><img src="imgs/musslick.jpg" alt="Sebastian Musslick" /></a> -->
-            <!--     <h5><a href="#">Sebastian Musslick</a></h5> -->
-            <!--     Osnabrück University -->
-            <!-- </div> -->
-            <!-- </div> -->
-        </div>
-    </section>
+                <!-- <div class="person"> -->
+                <!--     <a href="#"><img src="imgs/musslick.jpg" alt="Sebastian Musslick" /></a> -->
+                <!--     <h5><a href="#">Sebastian Musslick</a></h5> -->
+                <!--     Osnabrück University -->
+                <!-- </div> -->
+                <!-- </div> -->
+            </div>
+        </section>
 
     <section id="schedule">
         <div class="sectitle">
@@ -365,311 +373,316 @@
         </table>
     </section>
 
-    <section id="call">
-        <!-- directives:[] -->
-        <div class="sectitle">
-            <h2>Call for Papers</h2>
-        </div>
-        <p class="section-intro">We invite submissions in the following categories.<br>
-            The review process is double-blind through our
-            <a href="https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/DBM">OpenReview portal</a>
-            for each track, and the submissions should be anonymized.
-        </p>
-        <div class="call">
-            <div class="contrib-category">
-                <h3 class="category-title dataset-title">Findings Track</h3>
-                <p class="category-description">
-                    Submissions should present original research on computational methods, theoretical frameworks,
-                    or quantitative findings that are applicable to neuroscience or cognitive science. We welcome
-                    <b>4-page or 8-page</b> submissions of unpublished work (including work currently under review
-                    elsewhere).
-                    Previously published work is not eligible.
-                </p>
-                <strong class="category-subtitle">Examples:</strong>
-                <ul class="category-list">
-                    <li>Adaptations of existing methods to domain-specific problems</li>
-                    <li>New insights gleaned from existing neural/cognitive experimental data</li>
-                    <li>Theoretical or computational frameworks that could guide experimental design</li>
-                    <li>Tools for standardized evaluation—building toward an "ImageNet for neuroscience"</li>
-                </ul>
-                <p class="category-note">Submission template</p>
-                <p class="category-description">
-                    We will be providing a submission template, please check back the week of Aug 11.
-                </p>
-
+        <section id="call">
+            <!-- directives:[] -->
+            <div class="sectitle">
+                <h2>Call for Papers</h2>
             </div>
-
-            <div class="contrib-category">
-                <h3 class="category-title method-title">Tutorials Track</h3>
-                <p class="category-description">
-                    Submissions should present pedagogical notebooks or blog posts discussing ML methods,
-                    neuroscience / cognitive science datasets, or conceptual frameworks, with the goal of
-                    facilitating interdisciplinary collaboration.
-                </p>
-                <strong class="category-subtitle">Examples:</strong>
-                <ul class="category-list">
-                    <li>
-                        Providing a well-formatted dataset of neural recordings, along with a Jupyter notebook
-                        showing how to load and use the dataset
-                    </li>
-                    <li>
-                        Walking through how an ML method could be applied to a problem or class of problems in
-                        neuroscience or cognitive science
-                    </li>
-                    <li>
-                        A blog post introducing a behavioral science dataset, and describing open questions and
-                        hypotheses that could be explored by ML practitioners
-                    </li>
-                </ul>
-                <p class="category-note">Requirements</p>
-                <p class="category-description">
-                    Submissions to the tutorials track will be evaluated on pedagogical quality and relevance to the
-                    themes of the workshop. Tutorials do not need to be original research—it is fine to present
-                    existing datasets or methods (with appropriate attribution) in a more accessible way. Any
-                    dependencies (code, data, etc.) should be included in the submission with clear instructions for
-                    use.
-                </p>
-                <p>
-                    Additional instructions for submitting tutorials are provided
-                    <a href="https://data-brain-mind.github.io/tutorials/about/">here</a>.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- 9:00 – 9:10am  & Opening remarks -->
-    <!-- 9:10 – 9:50am  & Lightning talks -->
-    <!-- 9:50 – 10:20am & Invited talk 1 -->
-    <!-- 10:20 – 10:50am & Invited talk 2 -->
-    <!-- 11:00 – 11:50am & Discussion sessions -->
-    <!-- 11:50 – 1:00pm & Networking lunch -->
-    <!-- 1:00 – 1:30pm  & Invited talk 3 -->
-    <!-- 1:30 – 2:00pm  & Invited talk 4 -->
-    <!-- 2:00 – 2:40pm  & Poster session -->
-    <!-- 2:50 – 3:20pm  & Invited talk 5 -->
-    <!-- 3:20 – 3:50pm  & Invited talk 6 -->
-    <!-- 3:50 – 4:20pm  &  Un-Poster session -->
-    <!-- 4:30 - 5:00pm  &  Invited talk 7 -->
-    <!-- 5:10 - 5:45pm  &  Moderated panel -->
-    <section class="dates" id="dates">
-        <div class="sectitle">
-            <h2>Important Dates</h2>
-        </div>
-        <div class="important-dates-list">
-            <div class="date-item">
-                <span class="date-event">Paper submission deadline</span>
-                <span class="date-value">September 8, 2025</span>
-            </div>
-            <div class="date-item">
-                <span class="date-event">Paper acceptance</span>
-                <span class="date-value">September 22, 2025</span>
-            </div>
-            <div class="date-item">
-                <span class="date-event">Camera-ready version due</span>
-                <span class="date-value">October 8, 2025 <small>(AoE)</small></span>
-            </div>
-            <!-- <div class="date-item"> -->
-            <!--     <span class="date-event">Workshop</span> -->
-            <!--     <span class="date-value">November 9, 2025</span> -->
-            <!-- </div> -->
-        </div>
-    </section>
-    <section id="faq" class="faq">
-        <div class="sectitle">
-            <h2>Frequently Asked Questions</h2>
-        </div>
-
-        <div id="faqAccordion" class="accordion margin">
-
-            <!-- Q1 -->
-            <div class="card">
-                <div class="card-header" id="faqHeading1">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed d-flex w-100 justify-content-between align-items-center"
-                            data-toggle="collapse" data-target="#faqCollapse1" aria-expanded="false"
-                            aria-controls="faqCollapse1">
-                            <span>Is the review process double blind?</span>
-                            <i class="fas fa-plus faq-icon" aria-hidden="true"></i>
-                        </button>
-                    </h5>
+            <p class="section-intro">
+                We invite submissions in the following categories.<br />
+                The review process is double-blind through our
+                <a href="https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/DBM">OpenReview portal</a>
+                for each track, and the submissions should be anonymized.
+            </p>
+            <div class="call">
+                <div class="contrib-category">
+                    <h3 class="category-title dataset-title">Findings Track</h3>
+                    <p class="category-description">
+                        Submissions should present original research on computational methods, theoretical frameworks,
+                        or quantitative findings that are applicable to neuroscience or cognitive science. We welcome
+                        <b>4-page or 8-page</b> submissions of unpublished work (including work currently under review
+                        elsewhere). Previously published work is not eligible.
+                    </p>
+                    <strong class="category-subtitle">Examples:</strong>
+                    <ul class="category-list">
+                        <li>Adaptations of existing methods to domain-specific problems</li>
+                        <li>New insights gleaned from existing neural/cognitive experimental data</li>
+                        <li>Theoretical or computational frameworks that could guide experimental design</li>
+                        <li>Tools for standardized evaluation—building toward an "ImageNet for neuroscience"</li>
+                    </ul>
+                    <p class="category-note">Submission template</p>
+                    <p class="category-description">
+                        We will be providing a submission template, please check back the week of Aug 11.
+                    </p>
                 </div>
-                <div id="faqCollapse1" class="collapse" aria-labelledby="faqHeading1" data-parent="#faqAccordion">
-                    <div class="card-body">
-                        Yes, please anonymize your submission.
+
+                <div class="contrib-category">
+                    <h3 class="category-title method-title">Tutorials Track</h3>
+                    <p class="category-description">
+                        Submissions should present pedagogical notebooks or blog posts discussing ML methods,
+                        neuroscience / cognitive science datasets, or conceptual frameworks, with the goal of
+                        facilitating interdisciplinary collaboration.
+                    </p>
+                    <strong class="category-subtitle">Examples:</strong>
+                    <ul class="category-list">
+                        <li>
+                            Providing a well-formatted dataset of neural recordings, along with a Jupyter notebook
+                            showing how to load and use the dataset
+                        </li>
+                        <li>
+                            Walking through how an ML method could be applied to a problem or class of problems in
+                            neuroscience or cognitive science
+                        </li>
+                        <li>
+                            A blog post introducing a behavioral science dataset, and describing open questions and
+                            hypotheses that could be explored by ML practitioners
+                        </li>
+                    </ul>
+                    <p class="category-note">Requirements</p>
+                    <p class="category-description">
+                        Submissions to the tutorials track will be evaluated on pedagogical quality and relevance to the
+                        themes of the workshop. Tutorials do not need to be original research—it is fine to present
+                        existing datasets or methods (with appropriate attribution) in a more accessible way. Any
+                        dependencies (code, data, etc.) should be included in the submission with clear instructions for
+                        use.
+                    </p>
+                    <p>
+                        Additional instructions for submitting tutorials are provided
+                        <a href="https://data-brain-mind.github.io/tutorials/about/">here</a>.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9:00 – 9:10am  & Opening remarks -->
+        <!-- 9:10 – 9:50am  & Lightning talks -->
+        <!-- 9:50 – 10:20am & Invited talk 1 -->
+        <!-- 10:20 – 10:50am & Invited talk 2 -->
+        <!-- 11:00 – 11:50am & Discussion sessions -->
+        <!-- 11:50 – 1:00pm & Networking lunch -->
+        <!-- 1:00 – 1:30pm  & Invited talk 3 -->
+        <!-- 1:30 – 2:00pm  & Invited talk 4 -->
+        <!-- 2:00 – 2:40pm  & Poster session -->
+        <!-- 2:50 – 3:20pm  & Invited talk 5 -->
+        <!-- 3:20 – 3:50pm  & Invited talk 6 -->
+        <!-- 3:50 – 4:20pm  &  Un-Poster session -->
+        <!-- 4:30 - 5:00pm  &  Invited talk 7 -->
+        <!-- 5:10 - 5:45pm  &  Moderated panel -->
+        <section class="dates" id="dates">
+            <div class="sectitle">
+                <h2>Important Dates</h2>
+            </div>
+            <div class="important-dates-list">
+                <div class="date-item">
+                    <span class="date-event">Paper submission deadline</span>
+                    <span class="date-value">September 8, 2025</span>
+                </div>
+                <div class="date-item">
+                    <span class="date-event">Paper acceptance</span>
+                    <span class="date-value">September 22, 2025</span>
+                </div>
+                <div class="date-item">
+                    <span class="date-event">Camera-ready version due</span>
+                    <span class="date-value">October 8, 2025 <small>(AoE)</small></span>
+                </div>
+                <!-- <div class="date-item"> -->
+                <!--     <span class="date-event">Workshop</span> -->
+                <!--     <span class="date-value">November 9, 2025</span> -->
+                <!-- </div> -->
+            </div>
+        </section>
+        <section id="faq" class="faq">
+            <div class="sectitle">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+
+            <div id="faqAccordion" class="accordion margin">
+                <!-- Q1 -->
+                <div class="card">
+                    <div class="card-header" id="faqHeading1">
+                        <h5 class="mb-0">
+                            <button
+                                class="btn btn-link collapsed d-flex w-100 justify-content-between align-items-center"
+                                data-toggle="collapse"
+                                data-target="#faqCollapse1"
+                                aria-expanded="false"
+                                aria-controls="faqCollapse1">
+                                <span>Is the review process double blind?</span>
+                                <i class="fas fa-plus faq-icon" aria-hidden="true"></i>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="faqCollapse1" class="collapse" aria-labelledby="faqHeading1" data-parent="#faqAccordion">
+                        <div class="card-body">Yes, please anonymize your submission.</div>
+                    </div>
+                </div>
+
+                <!-- Q2 -->
+                <div class="card">
+                    <div class="card-header" id="faqHeading2">
+                        <h5 class="mb-0">
+                            <button
+                                class="btn btn-link collapsed d-flex w-100 justify-content-between align-items-center"
+                                data-toggle="collapse"
+                                data-target="#faqCollapse2"
+                                aria-expanded="false"
+                                aria-controls="faqCollapse2">
+                                <span
+                                    >Are concurrent submissions to both the Tutorials and Findings tracks allowed?</span
+                                >
+                                <i class="fas fa-plus faq-icon" aria-hidden="true"></i>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="faqCollapse2" class="collapse" aria-labelledby="faqHeading2" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            We welcome concurrent submissions to both tracks, but each submission should stand on its
+                            own in content and contribution (and meet the standards of the track). Please see the calls
+                            for contributions for more details. We provide an option on OpenReview to indicate
+                            concurrent submission. In the case that the concurrent submissions of the same work are
+                            accepted to both tracks, the author(s) may consider presenting a single poster. We will help
+                            indicate that the poster presents both findings and a tutorial at the workshop.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Q3 -->
+                <div class="card">
+                    <div class="card-header" id="faqHeading3">
+                        <h5 class="mb-0">
+                            <button
+                                class="btn btn-link collapsed d-flex w-100 justify-content-between align-items-center"
+                                data-toggle="collapse"
+                                data-target="#faqCollapse3"
+                                aria-expanded="false"
+                                aria-controls="faqCollapse3">
+                                <span
+                                    >Are submissions for both tracks considered publications? Can I still publish the
+                                    work accepted at the DBM workshop?</span
+                                >
+                                <i class="fas fa-plus faq-icon" aria-hidden="true"></i>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="faqCollapse3" class="collapse" aria-labelledby="faqHeading3" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            The accepted papers for both tracks are considered non-archival and do not conflict with any
+                            future publications. The accepted papers will show up on OpenReview and can be cited from
+                            there. Work under review elsewhere is welcome.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Q4 -->
+                <div class="card">
+                    <div class="card-header" id="faqHeading4">
+                        <h5 class="mb-0">
+                            <button
+                                class="btn btn-link collapsed d-flex w-100 justify-content-between align-items-center"
+                                data-toggle="collapse"
+                                data-target="#faqCollapse4"
+                                aria-expanded="false"
+                                aria-controls="faqCollapse4">
+                                <span>Do I get to present my accepted work under the Findings or Tutorials track?</span>
+                                <i class="fas fa-plus faq-icon" aria-hidden="true"></i>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="faqCollapse4" class="collapse" aria-labelledby="faqHeading4" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            For both tracks, all accepted submissions will be presented in the form of posters. Among
+                            the accepted submissions for both tracks, we will select and highlight the top submissions
+                            as oral talks in the workshop.
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <!-- Q2 -->
-            <div class="card">
-                <div class="card-header" id="faqHeading2">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed d-flex w-100 justify-content-between align-items-center"
-                            data-toggle="collapse" data-target="#faqCollapse2" aria-expanded="false"
-                            aria-controls="faqCollapse2">
-                            <span>Are concurrent submissions to both the Tutorials and Findings tracks allowed?</span>
-                            <i class="fas fa-plus faq-icon" aria-hidden="true"></i>
-                        </button>
-                    </h5>
+        <section id="organizers" class="organizers">
+            <div class="sectitle">
+                <h2>Organizers</h2>
+            </div>
+            <div class="grid">
+                <div class="row">
+                    <div class="person">
+                        <a href="https://phy.princeton.edu/people/cathy-ji"
+                            ><img src="imgs/ji.jpg" alt="Catherine Ji"
+                        /></a>
+                        <h5>
+                            <a href="https://phy.princeton.edu/people/cathy-ji">Catherine Ji</a>
+                        </h5>
+                        Princeton University
+                    </div>
+                    <div class="person">
+                        <a href="https://people.eecs.berkeley.edu/~vmyers/"
+                            ><img src="imgs/myers.jpg" alt="Vivek Myers"
+                        /></a>
+                        <h5>
+                            <a href="https://people.eecs.berkeley.edu/~vmyers/">Vivek Myers</a>
+                        </h5>
+                        UC Berkeley
+                    </div>
+                    <div class="person">
+                        <a href="https://github.com/archerw105/"><img src="imgs/wang.jpg" alt="Archer Wang" /></a>
+                        <h5>
+                            <a href="https://github.com/archerw105/">Archer Wang</a>
+                        </h5>
+                        MIT
+                    </div>
+                    <div class="person">
+                        <a href="https://minzsiure.github.io/"><img src="imgs/xie.jpg" alt="Eva Yi Xie" /></a>
+                        <h5>
+                            <a href="https://minzsiure.github.io/">Eva Yi Xie</a>
+                        </h5>
+                        Princeton University
+                    </div>
+                    <div class="person">
+                        <a href="https://sites.google.com/view/mahsabastankhah/home"
+                            ><img src="imgs/bastankhah.jpg" alt="Mahsa Bastankhah"
+                        /></a>
+                        <h5>
+                            <a href="https://sites.google.com/view/mahsabastankhah/home">Mahsa Bastankhah</a>
+                        </h5>
+                        Princeton University
+                    </div>
                 </div>
-                <div id="faqCollapse2" class="collapse" aria-labelledby="faqHeading2" data-parent="#faqAccordion">
-                    <div class="card-body">
-                        We welcome concurrent submissions to both tracks, but each submission should stand on its own in
-                        content and
-                        contribution (and meet the standards of the track). Please see the calls for contributions for
-                        more
-                        details.
-                        We provide an option on OpenReview to indicate concurrent submission. In the case that the
-                        concurrent
-                        submissions of the same work are accepted to both tracks, the author(s) may consider presenting
-                        a
-                        single
-                        poster. We will help indicate that the poster presents both findings and a tutorial at the
-                        workshop.
+
+                <div class="row">
+                    <div class="person">
+                        <a href="https://ben-eysenbach.github.io/"
+                            ><img src="imgs/eysenbach.jpg" alt="Benjamin Eysenbach"
+                        /></a>
+                        <h5>
+                            <a href="https://ben-eysenbach.github.io/">Benjamin Eysenbach</a>
+                        </h5>
+                        Princeton University
+                    </div>
+                    <div class="person">
+                        <a href="https://www.jenellefeather.com/"
+                            ><img src="imgs/jfeather.jpg" alt="Jenelle Feather"
+                        /></a>
+                        <h5>
+                            <a href="https://www.jenellefeather.com/">Jenelle Feather</a>
+                        </h5>
+                        Carnegie Mellon University
+                    </div>
+                    <div class="person">
+                        <a href="https://eringrant.github.io/"><img src="imgs/grant.jpg" alt="Erin Grant" /></a>
+                        <h5>
+                            <a href="https://eringrant.github.io/">Erin Grant</a>
+                        </h5>
+                        University College London
+                    </div>
+                    <div class="person">
+                        <a href="https://www.rdgao.com/"><img src="imgs/gao.jpeg" alt="Richard Gao" /></a>
+                        <h5>
+                            <a href="https://www.rdgao.com/">Richard Gao</a>
+                        </h5>
+                        University of Tübingen
                     </div>
                 </div>
             </div>
-
-            <!-- Q3 -->
-            <div class="card">
-                <div class="card-header" id="faqHeading3">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed d-flex w-100 justify-content-between align-items-center"
-                            data-toggle="collapse" data-target="#faqCollapse3" aria-expanded="false"
-                            aria-controls="faqCollapse3">
-                            <span>Are submissions for both tracks considered publications? Can I still publish the work
-                                accepted at the DBM workshop?</span>
-                            <i class="fas fa-plus faq-icon" aria-hidden="true"></i>
-                        </button>
-                    </h5>
-                </div>
-                <div id="faqCollapse3" class="collapse" aria-labelledby="faqHeading3" data-parent="#faqAccordion">
-                    <div class="card-body">
-                        The accepted papers for both tracks are considered non-archival and do not conflict with any
-                        future
-                        publications.
-                        The accepted papers will show up on OpenReview and can be cited from there. Work under review
-                        elsewhere is welcome.
-                    </div>
-                </div>
-            </div>
-
-            <!-- Q4 -->
-            <div class="card">
-                <div class="card-header" id="faqHeading4">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed d-flex w-100 justify-content-between align-items-center"
-                            data-toggle="collapse" data-target="#faqCollapse4" aria-expanded="false"
-                            aria-controls="faqCollapse4">
-                            <span>Do I get to present my accepted work under the Findings or Tutorials track?</span>
-                            <i class="fas fa-plus faq-icon" aria-hidden="true"></i>
-                        </button>
-                    </h5>
-                </div>
-                <div id="faqCollapse4" class="collapse" aria-labelledby="faqHeading4" data-parent="#faqAccordion">
-                    <div class="card-body">
-                        For both tracks, all accepted submissions will be presented in the form of posters. Among the
-                        accepted
-                        submissions for both tracks, we will select and highlight the top submissions as oral talks in
-                        the
-                        workshop.
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section id="organizers" class="organizers">
-        <div class="sectitle">
-            <h2>Organizers</h2>
-        </div>
-        <div class="grid">
-            <div class="row">
-                <div class="person">
-                    <a href="https://phy.princeton.edu/people/cathy-ji"><img src="imgs/ji.jpg" alt="Catherine Ji" /></a>
-                    <h5>
-                        <a href="https://phy.princeton.edu/people/cathy-ji">Catherine Ji</a>
-                    </h5>
-                    Princeton University
-                </div>
-                <div class="person">
-                    <a href="https://people.eecs.berkeley.edu/~vmyers/"><img src="imgs/myers.jpg"
-                            alt="Vivek Myers" /></a>
-                    <h5>
-                        <a href="https://people.eecs.berkeley.edu/~vmyers/">Vivek Myers</a>
-                    </h5>
-                    UC Berkeley
-                </div>
-                <div class="person">
-                    <a href="https://github.com/archerw105/"><img src="imgs/wang.jpg" alt="Archer Wang" /></a>
-                    <h5>
-                        <a href="https://github.com/archerw105/">Archer Wang</a>
-                    </h5>
-                    MIT
-                </div>
-                <div class="person">
-                    <a href="https://minzsiure.github.io/"><img src="imgs/xie.jpg" alt="Eva Yi Xie" /></a>
-                    <h5>
-                        <a href="https://minzsiure.github.io/">Eva Yi Xie</a>
-                    </h5>
-                    Princeton University
-                </div>
-                <div class="person">
-                    <a href="https://sites.google.com/view/mahsabastankhah/home"><img src="imgs/bastankhah.jpg"
-                            alt="Mahsa Bastankhah" /></a>
-                    <h5>
-                        <a href="https://sites.google.com/view/mahsabastankhah/home">Mahsa Bastankhah</a>
-                    </h5>
-                    Princeton University
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="person">
-                    <a href="https://ben-eysenbach.github.io/"><img src="imgs/eysenbach.jpg"
-                            alt="Benjamin Eysenbach" /></a>
-                    <h5>
-                        <a href="https://ben-eysenbach.github.io/">Benjamin Eysenbach</a>
-                    </h5>
-                    Princeton University
-                </div>
-                <div class="person">
-                    <a href="https://www.jenellefeather.com/"><img src="imgs/jfeather.jpg" alt="Jenelle Feather" /></a>
-                    <h5>
-                        <a href="https://www.jenellefeather.com/">Jenelle Feather</a>
-                    </h5>
-                    Carnegie Mellon University
-                </div>
-                <div class="person">
-                    <a href="https://eringrant.github.io/"><img src="imgs/grant.jpg" alt="Erin Grant" /></a>
-                    <h5>
-                        <a href="https://eringrant.github.io/">Erin Grant</a>
-                    </h5>
-                    University College London
-                </div>
-                <div class="person">
-                    <a href="https://www.rdgao.com/"><img src="imgs/gao.jpeg" alt="Richard Gao" /></a>
-                    <h5>
-                        <a href="https://www.rdgao.com/">Richard Gao</a>
-                    </h5>
-                    University of Tübingen
-                </div>
-            </div>
-        </div>
-    </section>
-</body>
-<script>
-    // Toggle + / - icons on show/hide
-    $('#faqAccordion')
-        .on('show.bs.collapse', function (e) {
-            $(e.target).prev('.card-header').find('.faq-icon')
-                .removeClass('fa-plus').addClass('fa-minus');
-        })
-        .on('hide.bs.collapse', function (e) {
-            $(e.target).prev('.card-header').find('.faq-icon')
-                .removeClass('fa-minus').addClass('fa-plus');
-        });
-</script>
-
+        </section>
+    </body>
+    <script>
+        // Toggle + / - icons on show/hide
+        $("#faqAccordion")
+            .on("show.bs.collapse", function (e) {
+                $(e.target).prev(".card-header").find(".faq-icon").removeClass("fa-plus").addClass("fa-minus")
+            })
+            .on("hide.bs.collapse", function (e) {
+                $(e.target).prev(".card-header").find(".faq-icon").removeClass("fa-minus").addClass("fa-plus")
+            })
+    </script>
 </html>
