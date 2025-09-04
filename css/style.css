@@ -603,43 +603,43 @@ b {
 }
 
 .schedule-table th.w-10 {
-    width: 10%; 
+    width: 10%;
 }
 
 .schedule-table th.w-20 {
-    width: 20%; 
+    width: 20%;
 }
 
 .schedule-table th.w-30 {
-    width: 30%; 
+    width: 30%;
 }
 
 .schedule-table th.w-40 {
-    width: 40%; 
+    width: 40%;
 }
 
 .schedule-table th.w-50 {
-    width: 50%; 
+    width: 50%;
 }
 
 .schedule-table th.w-60 {
-    width: 60%; 
+    width: 60%;
 }
 
 .schedule-table th.w-70 {
-    width: 70%; 
+    width: 70%;
 }
 
 .schedule-table th.w-80 {
-    width: 80%; 
+    width: 80%;
 }
 
 .schedule-table th.w-90 {
-    width: 90%; 
+    width: 90%;
 }
 
 .schedule-table th.w-100 {
-    width: 100%; 
+    width: 100%;
 }
 
 .schedule-table > tbody > tr > td,
@@ -706,9 +706,9 @@ b {
 
 /* Contributed Work Section Styles */
 #call .section-intro {
-    text-align: center;
+    text-align: left;
     margin-bottom: 30px;
-    font-size: 1.1em;
+    font-size: 1em;
     color: #555;
 }
 
@@ -761,7 +761,7 @@ b {
 .category-subtitle {
     display: block; /* Make it a block to have margin-bottom */
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1em;
     color: #222;
     margin-top: 20px;
     margin-bottom: 10px;
