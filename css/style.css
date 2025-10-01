@@ -686,8 +686,7 @@ b {
     font-weight: bold;
 }
 
-.date-value small {
-    font-size: 0.85em;
+.date-value .date-note {
     font-weight: normal;
     color: #555;
 }
