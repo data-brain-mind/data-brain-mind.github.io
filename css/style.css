@@ -830,3 +830,14 @@ blockquote p {
 #faq .card-body {
     padding-top: 0.75rem;
 }
+
+.sponsor-logo {
+    max-width: 160px;
+    /* make this smaller/bigger as you like */
+    width: 100%;
+    height: auto;
+}
+
+.sponsor .centered {
+    text-align: center;
+}
