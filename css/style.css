@@ -832,7 +832,7 @@ blockquote p {
 }
 
 .sponsor-logo {
-    max-width: 500px;
+    max-width: 450px;
     /* make this smaller/bigger as you like */
     width: 100%;
     height: auto;
