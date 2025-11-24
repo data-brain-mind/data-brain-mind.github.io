@@ -850,3 +850,50 @@ blockquote p {
     margin-bottom: 0;
     /* tighter spacing if you like */
 }
+
+/* Grid layout: up to 3 cards per row, responsive */
+.tutorial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+/* Card styling */
+.tutorial-card {
+    background: #f8f9fb;
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+    border: 1px solid #e2e6ec;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.tutorial-title {
+    font-size: 1.05rem;
+    margin-bottom: 0.5rem;
+}
+
+.tutorial-card .post-title {
+    text-decoration: none;
+    color: #222;
+}
+
+.tutorial-card .post-title:hover {
+    text-decoration: underline;
+}
+
+.tutorial-desc {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.75rem;
+}
+
+.tutorial-card .post-meta {
+    font-size: 0.8rem;
+    color: #888;
+    margin-top: auto;
+    /* pins meta to bottom of card */
+}
