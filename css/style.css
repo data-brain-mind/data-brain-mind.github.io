@@ -841,3 +841,12 @@ blockquote p {
 .sponsor .centered {
     text-align: center;
 }
+
+.oral-talks {
+    font-size: 0.9em;
+    /* slightly smaller */
+    color: #555;
+    /* softer gray text */
+    margin-bottom: 0;
+    /* tighter spacing if you like */
+}
