@@ -852,11 +852,26 @@ blockquote p {
 }
 
 /* Grid layout: up to 3 cards per row, responsive */
+/* Exactly 3 cards per row on desktop */
 .tutorial-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
     margin-top: 1.5rem;
+}
+
+/* 2 per row on medium screens */
+@media (max-width: 992px) {
+    .tutorial-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* 1 per row on small screens */
+@media (max-width: 576px) {
+    .tutorial-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* Card styling */
