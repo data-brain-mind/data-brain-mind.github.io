@@ -912,3 +912,9 @@ blockquote p {
     margin-top: auto;
     /* pins meta to bottom of card */
 }
+
+.tutorial-authors {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 0.35rem;
+}
