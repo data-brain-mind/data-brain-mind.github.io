@@ -918,3 +918,23 @@ blockquote p {
     color: #666;
     margin-bottom: 0.35rem;
 }
+
+.sponsor .centered {
+    display: flex;
+    flex-direction: row;
+    /* horizontal */
+    justify-content: center;
+    /* center as a group */
+    align-items: center;
+    gap: 2rem;
+    /* space between logos */
+    flex-wrap: wrap;
+    /* let them wrap on tiny screens */
+}
+
+.sponsor-logo {
+    max-height: 70px;
+    /* tweak this to taste */
+    width: auto;
+    height: auto;
+}
