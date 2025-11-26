@@ -922,20 +922,18 @@ blockquote p {
 }
 
 .sponsor-logo {
-    max-height: 90px;
-    /* tweak this to taste */
+    height: 130px;
+    /* increase this to make EVERYTHING bigger */
     width: auto;
-    height: auto;
 }
 
 .sponsor-logo-simons {
-    max-height: 80px;
-    /* or 55px, tweak until it looks right */
+    height: 95px;
+    /* smaller than 130px; tweak until it feels right */
 }
 
 .margin.sponsor {
-    width: 90%;
-    /* was 70% */
+    width: 95%;
     margin: 0 auto;
 }
 
