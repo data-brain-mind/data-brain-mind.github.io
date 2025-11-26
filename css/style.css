@@ -831,17 +831,6 @@ blockquote p {
     padding-top: 0.75rem;
 }
 
-.sponsor-logo {
-    max-width: 450px;
-    /* make this smaller/bigger as you like */
-    width: 100%;
-    height: auto;
-}
-
-.sponsor .centered {
-    text-align: center;
-}
-
 .oral-talks {
     font-size: 0.9em;
     /* slightly smaller */
@@ -933,8 +922,28 @@ blockquote p {
 }
 
 .sponsor-logo {
-    max-height: 70px;
+    max-height: 90px;
     /* tweak this to taste */
     width: auto;
     height: auto;
+}
+
+.sponsor-logo-simons {
+    max-height: 80px;
+    /* or 55px, tweak until it looks right */
+}
+
+.margin.sponsor {
+    width: 90%;
+    /* was 70% */
+    margin: 0 auto;
+}
+
+.sponsor .centered {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
 }
